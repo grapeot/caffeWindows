@@ -219,8 +219,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Program Files\boost_1_57_0\lib64-msvc-12.0;C:\Program Files\OpenCV\lib;$(CUDA_PATH_V6_5)\lib\$(PlatformName)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_core2410d.lib;opencv_calib3d2410d.lib;opencv_contrib2410d.lib;opencv_flann2410d.lib;opencv_highgui2410d.lib;opencv_imgproc2410d.lib;opencv_legacy2410d.lib;opencv_ml2410d.lib;opencv_gpu2410d.lib;opencv_objdetect2410d.lib;opencv_photo2410d.lib;opencv_features2d2410d.lib;opencv_nonfree2410d.lib;opencv_stitching2410d.lib;opencv_video2410d.lib;opencv_videostab2410d.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../3rdparty/lib;C:\Program Files\boost_1_57_0\lib64-msvc-12.0;C:\Program Files\OpenCV\lib;$(CUDA_PATH_V6_5)\lib\$(PlatformName)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gflagsd.lib;libglog.lib;libopenblas.dll.a;libprotobufd.lib;libprotoc.lib;leveldbd.lib;lmdbd.lib;libhdf5_D.lib;libhdf5_hl_D.lib;Shlwapi.lib;opencv_core2410d.lib;opencv_calib3d2410d.lib;opencv_contrib2410d.lib;opencv_flann2410d.lib;opencv_highgui2410d.lib;opencv_imgproc2410d.lib;opencv_legacy2410d.lib;opencv_ml2410d.lib;opencv_gpu2410d.lib;opencv_objdetect2410d.lib;opencv_photo2410d.lib;opencv_features2d2410d.lib;opencv_nonfree2410d.lib;opencv_stitching2410d.lib;opencv_video2410d.lib;opencv_videostab2410d.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command>“../scripts/GeneratePB.bat”</Command>
@@ -260,8 +260,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Program Files\boost_1_57_0\lib64-msvc-12.0;C:\Program Files\OpenCV\lib;$(CUDA_PATH_V6_5)\lib\$(PlatformName)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_core2410.lib;opencv_flann2410.lib;opencv_imgproc2410.lib;opencv_highgui2410.lib;opencv_legacy2410.lib;opencv_video2410.lib;opencv_ml2410.lib;opencv_calib3d2410.lib;opencv_objdetect2410.lib;opencv_stitching2410.lib;opencv_gpu2410.lib;opencv_nonfree2410.lib;opencv_features2d2410.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../3rdparty/lib;C:\Program Files\boost_1_57_0\lib64-msvc-12.0;C:\Program Files\OpenCV\lib;$(CUDA_PATH_V6_5)\lib\$(PlatformName)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>gflags.lib;libglog.lib;libopenblas.dll.a;libprotobuf.lib;libprotoc.lib;leveldb.lib;lmdb.lib;libhdf5.lib;libhdf5_hl.lib;Shlwapi.lib;opencv_core2410.lib;opencv_flann2410.lib;opencv_imgproc2410.lib;opencv_highgui2410.lib;opencv_legacy2410.lib;opencv_video2410.lib;opencv_ml2410.lib;opencv_calib3d2410.lib;opencv_objdetect2410.lib;opencv_stitching2410.lib;opencv_gpu2410.lib;opencv_nonfree2410.lib;opencv_features2d2410.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command>“../scripts/GeneratePB.bat”</Command>

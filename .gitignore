@@ -91,3 +91,11 @@ LOCK
 LOG*
 CURRENT
 MANIFEST-*
+
+# Visual Studio files
+x64
+x86
+*.sdf
+*.opensdf
+*.pdb
+*.suo
